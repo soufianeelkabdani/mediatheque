@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-evenly; 
+}
+ img{
+    width: 30%;
+    height: 30%;
+    margin-top: 70px;
+    border-radius: 5px;
+    
+}
+
+.input-group-login {
+    margin-top: 70px;
+    width: 280px;
+    background: rgb(252, 252, 252);
+    padding: 20px 20px;
+    height: 320px;
+    border-radius: 5px; 
+       
+}
+
+.input-group-register {
+    margin-top: 70px;
+    width: 300px;  
+    background-color: rgb(252, 252, 252);
+    padding: 20px 30px;
+    height: 650px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+   
+   
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+   
+}
+.inputSelect{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+     border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #5e9ab1;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btn1 {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #5e9ab1;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+   
+}
+span {
+    color: #777;
+    font-size: 12px;
+      
+}
+.erreur{
+    color: red;
+    font-size: 12px;
+}
+
